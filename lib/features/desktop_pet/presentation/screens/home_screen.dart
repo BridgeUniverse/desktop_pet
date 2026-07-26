@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:desktop_pet/features/widget/desktop_pet_widget.dart';
+import 'package:desktop_pet/features/desktop_pet/widget/desktop_pet_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold (
       body: Padding(
-        padding: const EdgeInsets.all(30),
+        padding:  EdgeInsets.all(2),
         child: Column(
           mainAxisAlignment : MainAxisAlignment.center,
           children:[

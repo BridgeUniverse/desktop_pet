@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:desktop_pet/features/desktop_pet/widget/character_sprite_widget.dart';
 
 class CharacterWidget extends StatelessWidget {
   const CharacterWidget({super.key});
@@ -6,7 +7,12 @@ class CharacterWidget extends StatelessWidget {
   @override
 
   Widget build(BuildContext context) {
-    return const Text("Character Widget");
+    return Stack(
+      alignment: Alignment.center,
+      children: [
+        CharacterSpriteWidget(),
+      ],
+    );
   }
 
 }

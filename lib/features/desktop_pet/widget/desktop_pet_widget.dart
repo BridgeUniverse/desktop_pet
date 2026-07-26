@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:desktop_pet/features/widget/CharacterWidget.dart';
+import 'package:desktop_pet/features/desktop_pet/widget/character_widget.dart';
 
 class DesktopPetWidget extends StatelessWidget {
   const DesktopPetWidget({super.key});
@@ -7,6 +7,6 @@ class DesktopPetWidget extends StatelessWidget {
   @override
 
   Widget build(BuildContext context) {
-    return const CharacterWidget();
+    return CharacterWidget();
   }
 }

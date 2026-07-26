@@ -125,3 +125,4 @@ app.*.symbols
 !.vscode/extensions.json
 !.vscode/settings.json
 *.iml
+.vscode/settings.json
