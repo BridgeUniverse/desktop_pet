@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:desktop_pet/features/widget/desktop_pet_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -12,7 +13,7 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment : MainAxisAlignment.center,
           children:[
-            Text("Desktop Pet"),
+            DesktopPetWidget(),
           ]
         ),
       ),

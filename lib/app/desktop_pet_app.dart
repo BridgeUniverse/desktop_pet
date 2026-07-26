@@ -1,4 +1,5 @@
 import 'package:flutter/Material.dart';
+import 'package:desktop_pet/features/desktop_pet/presentation/screens/home_screen.dart';
 
 class DesktopPetApp extends StatelessWidget {
   const DesktopPetApp({super.key});
@@ -9,11 +10,7 @@ class DesktopPetApp extends StatelessWidget {
     return MaterialApp(
       title: 'Desktop Pet',
       debugShowCheckedModeBanner: false,
-      home: const Scaffold(
-        body: Center(
-          child: Text('Desktop Pet '),
-        ),
-      ),
+      home: const HomeScreen(),
     );
   }
 }
