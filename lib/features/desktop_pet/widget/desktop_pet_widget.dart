@@ -7,6 +7,10 @@ class DesktopPetWidget extends StatelessWidget {
   @override
 
   Widget build(BuildContext context) {
-    return CharacterWidget();
+    return SizedBox(
+      width: 256,
+      height:256,
+      child:CharacterWidget(),
+    );
   }
 }
