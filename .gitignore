@@ -126,3 +126,6 @@ app.*.symbols
 !.vscode/settings.json
 *.iml
 .vscode/settings.json
+
+
+assets/

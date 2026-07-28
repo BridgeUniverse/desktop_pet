@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:desktop_pet/features/desktop_pet/widget/character_sprite_widget.dart';
+import 'package:desktop_pet/features/desktop_pet/widget/character_body_widget.dart';
+
 
 class CharacterWidget extends StatelessWidget {
   const CharacterWidget({super.key});
@@ -11,6 +13,7 @@ class CharacterWidget extends StatelessWidget {
       alignment: Alignment.center,
       children: [
         CharacterSpriteWidget(),
+        CharacterBodyWidget(),
       ],
     );
   }
