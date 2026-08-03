@@ -12,7 +12,7 @@ class CharacterWidget extends StatelessWidget {
     return Stack(
       alignment: Alignment.center,
       children: [
-        CharacterSpriteWidget(),
+        CharacterSpriteWidget(spritePath: 'assets/characters/luffy/placeholder.png'),
         CharacterBodyWidget(),
       ],
     );
