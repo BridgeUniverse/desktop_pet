@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:desktop_pet/features/desktop_pet/widget/character_sprite_widget.dart';
 import 'package:desktop_pet/features/desktop_pet/widget/character_body_widget.dart';
+import 'package:desktop_pet/shared/models/sprite_model.dart';
 
 
 class CharacterWidget extends StatelessWidget {
-  const CharacterWidget({super.key});
+  CharacterWidget({super.key});
+
+  final _spriteModel = SpriteModel(imagePath: 'assets/characters/luffy/placeholder.png');
+  final _bodyModel = SpriteModel(imagePath: 'assets/characters/luffy/placeholder.png');
 
   @override
 
@@ -12,8 +16,8 @@ class CharacterWidget extends StatelessWidget {
     return Stack(
       alignment: Alignment.center,
       children: [
-        CharacterSpriteWidget(spritePath: 'assets/characters/luffy/placeholder.png'),
-        CharacterBodyWidget(),
+        CharacterSpriteWidget(spriteModel: _spriteModel),
+        CharacterBodyWidget(spriteModel: _bodyModel),
       ],
     );
   }
